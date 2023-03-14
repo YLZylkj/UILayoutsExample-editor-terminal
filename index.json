@@ -1,0 +1,27 @@
+{
+    "title": "Scenario with Editor Terminal UI",
+    "description": "Katacoda Scenario Example",
+    "details": {
+        "intro": {
+            "text": "intro.md"
+        },
+        "steps": [
+            {
+                "title": "Scenario with Editor Terminal UI",
+                "text": "step1/text.md"
+            }
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+        "imageid": "alpine:latest",
+        "expose": 8080,
+        "layout": "",
+        "skins": "",
+        "tools": "idea | terminal | notebook",
+        "cpu": 1,
+        "memory": 1024
+    }
+}
